@@ -41,7 +41,10 @@ public class PermissionRequest {
     public void request() {
         AndPermission.with(mContext)
                 .requestCode(110)
-                .permission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                .permission(
+                        Manifest.permission.SEND_SMS,
+                        Manifest.permission.READ_SMS
+                )
                 .callback(this)
                 .start();
     }

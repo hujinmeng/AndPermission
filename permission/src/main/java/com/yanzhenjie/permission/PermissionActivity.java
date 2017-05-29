@@ -53,6 +53,7 @@ public final class PermissionActivity extends Activity {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (mPermissionListener != null)
             mPermissionListener.onRequestPermissionsResult(permissions, grantResults);
+        mPermissionListener = null;
         finish();
     }
 

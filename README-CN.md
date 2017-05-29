@@ -22,7 +22,7 @@
 # 引用方法
 * Gradle
 ```groovy
-compile 'com.yanzhenjie:permission:1.0.7'
+compile 'com.yanzhenjie:permission:1.0.8'
 ```
 
 * Maven
@@ -30,7 +30,7 @@ compile 'com.yanzhenjie:permission:1.0.7'
 <dependency>
   <groupId>com.yanzhenjie</groupId>
   <artifactId>permission</artifactId>
-  <version>1.0.7</version>
+  <version>1.0.8</version>
   <type>pom</type>
 </dependency>
 ```
